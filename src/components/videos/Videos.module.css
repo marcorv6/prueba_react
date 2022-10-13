@@ -53,26 +53,20 @@
     height: 160px;
   }
   
-  .videoCircle1 {
+  .videoCircle {
     width: 150px;
     height: 150px;
   }
 
-  .videoCircle2 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
+}
 
-  .videoCircle3 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+@media screen and (max-width: 850px) {
+  .active{
+    width: 160px;
+    height: 160px;
   }
-
-  .videoCircle4 {
+  .videoCircle{
     width: 150px;
     height: 150px;
-    border-radius: 50%;
   }
 }

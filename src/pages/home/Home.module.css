@@ -22,8 +22,11 @@
     width: 90vw;
     height: 30vh;
   }
+}
 
-  .videosContainer{
-    background-color: rgb(47, 47, 47);
+@media screen and (max-width: 850px) {
+  .iframe{
+    width: 90vw;
+    height: 80vh;
   }
 }
