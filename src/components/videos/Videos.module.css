@@ -1,0 +1,73 @@
+.claroText{
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.videoCircle{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  margin: 0 auto;
+}
+
+.videoCircle:hover{
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.videoCircle1 {
+  background-image: url("/public/team-latam.png");
+}
+
+.videoCircle2 {
+  background-image: url("/public/travel-meets-fashion.png");
+}
+
+.videoCircle3 {
+  background-image: url("/public/velocidad-riesgo.png");
+}
+
+.videoCircle4 {
+  background-image: url("/public/experiencia.png");
+}
+
+.active{
+  background-image: none;
+  background-color: red !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .videoCircle1 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .videoCircle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .videoCircle3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .videoCircle4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}

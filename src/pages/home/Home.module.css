@@ -1,0 +1,29 @@
+.homeContainer{
+  min-height: 85vh;
+}
+
+.coundownContainer{
+  background-image: url("/public/background.jpg");
+  background-size: cover;
+}
+
+.videosContainer{
+  background-color: rgb(47, 47, 47);
+  border-bottom: 5px solid rgb(82, 82, 82);
+}
+
+.iframe{
+  width: 800px;
+  height: 450px;
+}
+
+@media screen and (max-width: 768px){
+  .iframe{
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .videosContainer{
+    background-color: rgb(47, 47, 47);
+  }
+}

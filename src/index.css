@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600&display=swap');
+
+body, html {
+  margin: 0;
+  font-family: 'Exo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Exo', sans-serif;
+}

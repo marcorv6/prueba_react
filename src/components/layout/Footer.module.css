@@ -1,0 +1,48 @@
+.divMaster {
+  height: 7rem;
+  margin: 10 auto;
+}
+.fila{
+  padding-top: 1.4rem;
+}
+.icono{
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.iconoTw{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 4px;
+}
+.iconoFb{
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 4px;
+}
+.iconoIg{
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.black {
+  background-color: #000;
+}
+.footer {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.7rem;
+  }
+  .iconos {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+  .logoSochi {
+    margin: .4rem auto;
+    visibility: visible;
+    width: auto;
+  }
+}
