@@ -48,6 +48,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .active{
+    width: 160px;
+    height: 160px;
+  }
+  
   .videoCircle1 {
     width: 150px;
     height: 150px;
